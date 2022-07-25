@@ -1,7 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid currentColor;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+.card {
+  padding: 0.5rem;
+  border: inherit;
+  background-color: white;
+  border-radius: 0.5rem;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.card__actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
